@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subjects Taken - John Marl T. Abing</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Verdana', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+      background-color: #143443; 
+      color: white;
+      padding: 20px;
+      text-align: left;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Sidebar Navigation */
+    .menu {
+      width: 20%;
+      background-color: #143443; 
+      padding: 20px;
+      position: fixed;
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    .menu a {
+      display: block;
+      padding: 10px;
+      margin: 5px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .menu a:hover {
+      background: #031d1f;
+    }
+
+    /* Main Content */
+    .main {
+      margin-left: 22%;
+      padding: 20px;
+      max-width: 900px;
+    }
+
+    .main h2 {
+      color: #143443; 
+      border-bottom: 2px solid #143443;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* Table Styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #143443;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    /* Pagination */
+    .pagination {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .pagination a {
+      color: black;
+      display: inline-block;
+      padding: 10px 16px;
+      margin: 4px;
+      text-decoration: none;
+      border-radius: 5px;
+      border: 1px solid #143443;
+      transition: background-color 0.3s ease;
+    }
+
+    .pagination a.active {
+      background-color: #143443;
+      color: white;
+    }
+
+    .pagination a:hover:not(.active) {
+      background-color: #143443;
+      color: white;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #143443;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .menu {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .menu a {
+        display: inline-block;
+        margin: 5px;
+      }
+
+      .main {
+        margin-left: 0;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  John Marl T. Abing
+</div>
+
+<!-- Sidebar Navigation -->
+<div class="menu">
+  <a href="index.html">About Me</a>
+  <a href="subjectst.html">Subjects Taken</a>
+  <a href="Enrolled.html">Enrolled</a>
+  <a href="contactme.html">Contact Me</a>
+  <a href="favorites.html">My Favorites</a>
+  <a href="Galleryfinal.html">Gallery</a>
+</div>
+
+<!-- Main Content -->
+<div class="main">
+  <h2>Subjects Taken</h2>
+  <p><strong>First Year - 1st Semester</strong></p>
+
+  <table>
+    <tr>
+      <th>Subject Name</th>
+      <th>Description</th>
+      <th>Units</th>
+    </tr>
+    <tr>
+      <td>CSIT 4</td>
+      <td>DATA STRUCTURES AND ALGORITHMS</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>ITP 3</td>
+      <td>NETWORKING 1 (CISCO 1: NETWORKING BASICS)</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>ITEL 1A</td>
+      <td>IT ELECTIVE 1: PLATFORM TECHNOLOGIES</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>ITEL 2A</td>
+      <td>IT ELECTIVE 2: OBJECT-ORIENTED PROGRAMMING</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>HIST 1</td>
+      <td>READINGS IN PHILIPPINE HISTORY / MGA BABASAHIN HINGGIL SA KASAYSAYAN NG PILIPINAS</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>SOC ECON 1</td>
+      <td>THE CONTEMPORARY WORLD / ANG KASALUKUYAN DAIGDIG</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>PE 3</td>
+      <td>PATH FIT 3: SPORTS (INDIVIDUAL/DUAL)</td>
+      <td>2.0</td>
+    </tr>
+  </table>
+
+  <div style="text-align: center;" class="pagination">
+    <a href="sub2.html" class="prev">&laquo;</a>
+    <a href="subjectst.html">1</a>
+    <a  href="sub2.html">2</a>
+    <a class="active" href="sub3.html">3</a>
+  </div>
+  
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  © 2024 - 2025 ITP4 | All Rights Reserved
+</div>
+
+</body>
+</html>

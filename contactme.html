@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Marl T. Abing - Contact</title>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Verdana', sans-serif;
+    }
+
+    body {
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+        background-color: #143443;
+        color: white;
+        padding: 20px;
+        text-align: left;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /* Navigation */
+    .menu {
+        width: 20%;
+        background-color: #143443;
+        padding: 20px;
+        position: fixed;
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .menu a {
+        display: block;
+        padding: 10px;
+        margin: 5px 0;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+
+    .menu a:hover {
+        background: #031d1f;
+    }
+
+    /* Main Content */
+    .main {
+        margin-left: 22%;
+        padding: 20px;
+        max-width: 900px;
+    }
+
+    .main h2 {
+        color: #143443;
+        border-bottom: 2px solid #143443;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .contact-item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-item a {
+        text-decoration: none;
+        color: #143443;
+        font-weight: bold;
+    }
+
+    .contact-item a:hover {
+        text-decoration: underline;
+    }
+
+    /* Footer */
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #143443;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+        .menu {
+            width: 100%;
+            height: auto;
+            position: relative;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .menu a {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .main {
+            margin-left: 0;
+            padding: 15px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    John Marl T. Abing
+</div>
+
+<!-- Sidebar Menu -->
+<div class="menu">
+    <a href="index.html">About Me</a>
+    <a href="subjectst.html">Subjects Taken</a>
+    <a href="Enrolled.html">Enrolled</a>
+    <a href="contactme.html">Contact Me</a>
+    <a href="favorites.html">My Favorites</a>
+    <a href="Galleryfinal.html">Gallery</a>
+</div>
+
+<!-- Main Content -->
+<div class="main">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+        <div class="contact-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvGSSaw6QErIGj6o9L1RkeSI1tzoXKQt_4xQ&usqp=CAU">
+            <span>(+63 938 967 6090)</span>
+        </div>
+        <div class="contact-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png">
+            <a href="https://www.facebook.com/abing.johnmarl00">John Marl T. Abing</a>
+        </div>
+        <div class="contact-item">
+            <img src="https://static.vecteezy.com/system/resources/previews/016/716/465/original/gmail-icon-free-png.png">
+            <span>abingjm0@gmail.com</span>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    © 2024 - 2025 ITP4 | All Rights Reserved
+</div>
+
+</body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subjects Taken - John Marl T. Abing</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Verdana', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+      background-color: #143443; /* Main header color */
+      color: white;
+      padding: 20px;
+      text-align: left;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Sidebar Navigation */
+    .menu {
+      width: 20%;
+      background-color: #143443; /* Menu background color */
+      padding: 20px;
+      position: fixed;
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    .menu a {
+      display: block;
+      padding: 10px;
+      margin: 5px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .menu a:hover {
+      background: #031d1f; /* Menu hover color */
+    }
+
+    /* Main Content */
+    .main {
+      margin-left: 22%;
+      padding: 20px;
+      max-width: 900px;
+    }
+
+    .main h2 {
+      color: #143443; /* Title color */
+      border-bottom: 2px solid #143443;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* Table Styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #143443; /* Table header color */
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    /* Pagination */
+    .pagination {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .pagination a {
+      color: black;
+      display: inline-block;
+      padding: 10px 16px;
+      margin: 4px;
+      text-decoration: none;
+      border-radius: 5px;
+      border: 1px solid #143443; /* Pagination border color */
+      transition: background-color 0.3s ease;
+    }
+
+    .pagination a.active {
+      background-color: #143443; /* Active pagination color */
+      color: white;
+    }
+
+    .pagination a:hover:not(.active) {
+      background-color: #143443; /* Hover pagination color */
+      color: white;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #143443; /* Footer background color */
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .menu {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .menu a {
+        display: inline-block;
+        margin: 5px;
+      }
+
+      .main {
+        margin-left: 0;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  John Marl T. Abing
+</div>
+
+<!-- Sidebar Navigation -->
+<div class="menu">
+  <a href="index.html">About Me</a>
+  <a href="subjectst.html">Subjects Taken</a>
+  <a href="Enrolled.html">Enrolled</a>
+  <a href="contactme.html">Contact Me</a>
+  <a href="favorites.html">My Favorites</a>
+  <a href="Galleryfinal.html">Gallery</a>
+</div>
+
+<!-- Main Content -->
+<div class="main">
+  <h2>Subjects Taken</h2>
+  <p><strong>First Year - 1st Semester</strong></p>
+
+  <table>
+    <tr>
+      <th>Subject Name</th>
+      <th>Description</th>
+      <th>Units</th>
+    </tr>
+    <tr>
+      <td>MATH 1</td>
+      <td>MATHEMATICS IN THE MODERN WORLD</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>EP 1S</td>
+      <td>ENGLISH PROFICIENCY - START I</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>CSIT 3</td>
+      <td>INTERMEDIATE PROGRAMMING</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>ITP 1</td>
+      <td>IT FUNDAMENTALS</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>ITP 2</td>
+      <td>DISCRETE MATHEMATICS</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>PE 2</td>
+      <td>PATH FIT 2: FITNESS TRAINING</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>NSTP 12C</td>
+      <td>NSTP 2 - CIVIC WELFARE TRAINING SERVICE</td>
+      <td>3.0</td>
+    </tr>
+  </table>
+
+  <div class="pagination">
+    <a href="subjectst.html" class="prev">&laquo;</a>
+    <a href="subjectst.html">1</a>
+    <a class="active" href="#">2</a>
+    <a href="sub3.html">3</a>
+    <a href="sub3.html" class="next">&raquo;</a>
+  </div>
+s
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  © 2024 - 2025 ITP4 | All Rights Reserved
+</div>
+
+</body>
+</html>
